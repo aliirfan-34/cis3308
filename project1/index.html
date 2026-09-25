@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Wikipedia</div>
+
+        <div class="search">
+            <input type="text" placeholder="Search Wikipedia">
+            <button>Search</button>
+        </div>
+
+        <a href="#">Log in</a>
+    </header>
+
+    <nav>
+        <div>Main Page &nbsp; Talk</div>
+        <div>Read &nbsp; View source &nbsp; View history</div>
+    </nav>
+
+    <div class="page">
+
+        <main>
+
+            <section class="welcome">
+                <h1>Welcome to <a href="#">Wikipedia</a>,</h1>
+                <p>the free encyclopedia that anyone can edit.</p>
+            </section>
+
+            <div id="mp-upper">
+
+                <section class="article">
+                    <h2>From today's featured article</h2>
+
+                    <div class="article-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Koji_Okada_-_MiG_-_P1420957.JPG/250px-Koji_Okada_-_MiG_-_P1420957.JPG"
+                             alt="Koji Okada">
+                    </div>
+
+                    <p>
+                        <b>Persona</b> is a video game franchise primarily
+                        developed by Atlus. The series is a spin-off from
+                        the Megami Tensei franchise and has become known
+                        for its role-playing gameplay and social elements.
+                    </p>
+
+                    <p>
+                        The series has seen several games since its first
+                        release and continues to be one of Atlus's most
+                        popular franchises.
+                    </p>
+                </section>
+
+                <section class="news">
+                    <h2>In the news</h2>
+
+                    <ul>
+                        <li>A major international event is reported.</li>
+                        <li>A new species has been formally identified.</li>
+                        <li>Recent events from around the world.</li>
+                        <li>More current news appears here.</li>
+                    </ul>
+                </section>
+
+            </div>
+
+        </main>
+
+        <aside class="appearance">
+            <h3>Appearance</h3>
+
+            <hr>
+
+            <p>Text</p>
+            <label><input type="radio" name="text"> Small</label>
+            <label><input type="radio" name="text" checked> Standard</label>
+            <label><input type="radio" name="text"> Large</label>
+
+            <hr>
+
+            <p>Width</p>
+            <label><input type="radio" name="width" checked> Standard</label>
+            <label><input type="radio" name="width"> Wide</label>
+
+            <hr>
+
+            <p>Color</p>
+            <label><input type="radio" name="color"> Automatic</label>
+            <label><input type="radio" name="color" checked> Light</label>
+            <label><input type="radio" name="color"> Dark</label>
+        </aside>
+
+    </div>
+
+</body>
+</html>
