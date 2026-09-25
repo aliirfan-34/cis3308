@@ -136,7 +136,6 @@ main {
 .news-image img {
     width: 180px;
 }
-/* APPEARANCE */
 
 .appearance {
     width: 20%;
@@ -167,8 +166,6 @@ main {
     font-size: 18px;
 }
 
-
-/* LINKS */
 
 a {
     color: #3366cc;
