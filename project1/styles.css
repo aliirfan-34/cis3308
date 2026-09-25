@@ -1,200 +1,52 @@
-/* General page */
-
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: #202122;
-    background-color: white;
+    margin: 20px;
 }
-
-a {
-    color: #3366cc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-
-/* Header */
 
 header {
     display: flex;
     align-items: center;
-    gap: 30px;
-
-    padding: 15px 30px;
 }
 
 .logo {
-    font-family: Georgia, serif;
-    font-size: 28px;
+    width: 180px;
 }
-
-.search {
-    display: flex;
-    width: 500px;
-}
-
-.search input {
-    flex: 1;
-    padding: 8px;
-    border: 1px solid #a2a9b1;
-}
-
-.search button {
-    padding: 8px 15px;
-    border: 1px solid #a2a9b1;
-    background-color: #f8f9fa;
-    font-weight: bold;
-}
-
-
-/* Navigation */
-
-nav {
-    display: flex;
-    justify-content: space-between;
-
-    margin: 0 30px;
-    padding: 10px 0;
-
-    border-bottom: 1px solid #a2a9b1;
-}
-
-
-/* Main page + appearance sidebar */
-
-.page {
-    display: flex;
-    gap: 25px;
-
-    padding: 20px 30px;
-}
-
-main {
-    flex: 1;
-}
-
-
-/* Welcome */
-
-.welcome {
-    text-align: center;
-
-    background-color: #f8f9fa;
-    border: 1px solid #a2a9b1;
-
-    padding: 15px;
-    margin-bottom: 15px;
-}
-
-.welcome h1 {
-    font-family: Georgia, serif;
-    font-weight: normal;
-    margin: 0;
-}
-
-.welcome p {
-    margin: 5px 0 0;
-}
-
-
-/* FEATURE 1: Two-column layout */
 
 #mp-upper {
     display: flex;
-    gap: 10px;
-}
-
-.article,
-.news {
-    flex: 1;
-    border: 1px solid #a2a9b1;
-    padding: 10px;
 }
 
 .article {
+    width: 50%;
     background-color: #f5fffa;
+    border: 1px solid gray;
+    padding: 10px;
 }
 
 .news {
+    width: 50%;
     background-color: #f5faff;
+    border: 1px solid gray;
+    padding: 10px;
 }
-
-.article h2,
-.news h2 {
-    font-family: Georgia, serif;
-    font-size: 20px;
-    margin-top: 0;
-    padding: 6px;
-}
-
-.article h2 {
-    background-color: #cef2e0;
-    border: 1px solid #a3d3b8;
-}
-
-.news h2 {
-    background-color: #cedff2;
-    border: 1px solid #a3b0d3;
-}
-
-
-/* FEATURE 3: Image with text wrapping */
 
 .article-image {
     float: left;
-
-    margin: 0.5em 0.9em 0.4em 0;
+    margin-right: 10px;
 }
 
 .article-image img {
     width: 150px;
-    height: auto;
 }
 
+.page {
+    display: flex;
+}
 
-/* FEATURE 2: Appearance sidebar */
+main {
+    width: 80%;
+}
 
 .appearance {
-    width: 180px;
-
-    padding: 0 16px;
-    border-left: 1px solid #eaecf0;
-}
-
-.appearance h3 {
-    font-family: Georgia, serif;
-    border-bottom: 1px solid #a2a9b1;
-    padding-bottom: 8px;
-}
-
-.appearance p {
-    font-weight: bold;
-}
-
-.appearance label {
-    display: block;
-    margin: 10px 0;
-}
-
-
-/* Responsive layout like Wikipedia */
-
-@media (max-width: 875px) {
-
-    #mp-upper {
-        display: block;
-    }
-
-    .article,
-    .news {
-        margin-bottom: 10px;
-    }
-
-    .appearance {
-        display: none;
-    }
+    width: 20%;
+    padding: 10px;
 }
